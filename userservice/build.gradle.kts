@@ -29,6 +29,7 @@ dependencies {
     implementation("org.springframework.cloud:spring-cloud-starter-bootstrap")
     implementation("org.springframework.cloud:spring-cloud-starter-config")
     implementation("org.springframework.cloud:spring-cloud-starter-netflix-eureka-client")
+    implementation("org.springframework.cloud:spring-cloud-starter-bus-amqp")
     implementation("org.springframework.boot:spring-boot-starter-validation")
     implementation("com.h2database:h2")
     implementation("io.jsonwebtoken:jjwt:0.9.1")
