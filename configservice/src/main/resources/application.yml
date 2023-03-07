@@ -9,8 +9,18 @@ spring:
     port: 5672
     username: guest
     password: guest
+  profiles:
+    active: native
   cloud:
     config:
       server:
+        native:
+          search-locations: file:///Users/yowon/study/msawonyo
         git:
           uri: https://github.com/elyo9381/eri-ecommerce-by-mas
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh
