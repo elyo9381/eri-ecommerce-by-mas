@@ -40,6 +40,12 @@ greeting:
   message: Welcome to the Simple web page
 
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, beans
+
 logging:
   level:
     com.elyo.userservice : DEBUG
